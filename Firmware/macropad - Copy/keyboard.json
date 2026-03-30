@@ -1,0 +1,72 @@
+{
+    "keyboard_name": "macropad",
+    "manufacturer": "Hack Club",
+    "maintainer": "Jayden",
+    "usb": {
+        "vid": "0x4A56",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "features": {
+        "encoder": true,
+        "encoder_map": true,
+        "rgb_matrix": true,
+        "extrakey": true,
+        "mousekey": true
+    },
+    "matrix_pins": {
+        "custom": true
+    },
+    "diode_direction": "COL2ROW",
+    "ws2812": {
+        "pin": "GP29",
+        "driver": "vendor"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "led_count": 16,
+        "max_brightness": 150,
+        "sleep": true,
+        "animations": {
+            "solid_color": true,
+            "breathing": true,
+            "rainbow_moving_chevron": true,
+            "rainbow_pinwheels": true,
+            "solid_reactive": true,
+            "solid_reactive_simple": true,
+            "splash": true,
+            "solid_splash": true
+        }
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "NO_PIN", "pin_b": "NO_PIN", "resolution": 4},
+            {"pin_a": "NO_PIN", "pin_b": "NO_PIN", "resolution": 4}
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "TL",  "matrix": [3, 3], "x": 0, "y": 1},
+                {"label": "T1",  "matrix": [0, 3], "x": 1, "y": 1},
+                {"label": "T2",  "matrix": [0, 2], "x": 2, "y": 1},
+                {"label": "T3",  "matrix": [0, 1], "x": 3, "y": 1},
+                {"label": "TR",  "matrix": [0, 0], "x": 4, "y": 1},
+                {"label": "ML",  "matrix": [1, 3], "x": 0, "y": 2},
+                {"label": "M1",  "matrix": [1, 2], "x": 1, "y": 2},
+                {"label": "M2",  "matrix": [1, 1], "x": 2, "y": 2},
+                {"label": "M3",  "matrix": [1, 0], "x": 3, "y": 2},
+                {"label": "2U",  "matrix": [3, 0], "x": 4, "y": 1, "h": 2},
+                {"label": "BL",  "matrix": [2, 3], "x": 0, "y": 3},
+                {"label": "B1",  "matrix": [2, 2], "x": 1, "y": 3},
+                {"label": "B2",  "matrix": [2, 1], "x": 2, "y": 3},
+                {"label": "BR",  "matrix": [2, 0], "x": 3, "y": 3},
+                {"label": "EC0", "matrix": [3, 1], "x": 3, "y": 0},
+                {"label": "EC1", "matrix": [3, 2], "x": 4, "y": 0}
+            ]
+        }
+    }
+}
