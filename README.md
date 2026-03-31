@@ -21,12 +21,12 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 ### 3D Render
 
 <p align="center">
-  <img src="Images\Final-pic 1.png" alt="Top-down render" width="600"/>
+  <img src="Images\Final-pic 2.png" alt="Top-down render" width="600"/>
   <br/><em>Top-down view</em>
 </p>
 
 <p align="center">
-  <img src="Images\Final-pic 2.png" alt="Isometric render" width="600"/>
+  <img src="Images\Final-pic 1.png" alt="Isometric render" width="600"/>
   <br/><em>Isometric view showing case depth and USB cutout</em>
 </p>
 
