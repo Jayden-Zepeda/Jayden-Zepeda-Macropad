@@ -57,8 +57,8 @@ PCB is designed through KICAD and the case is designed in Autodesk Fusion-FREE.
 ### Case
 
 <p align="center">
-  <img src="Images\Final-pic 2.png" alt="Case isometric" width="600"/>
-  <br/><em>3-part 3D-printed enclosure with heatset inserts. The PCB sits inside the bottom shell; the top plate exposes keycaps, encoders, and the OLED. A middle layer sandwiches everything together.</em>
+  <img src="Images\Final-pic 3.png" alt="Case isometric" width="600"/>
+  <br/><em>3-part 3D-printed enclosure with heatset inserts. The PCB sits inside the bottom shell; the top plate exposes keycaps, encoders, and the OLED. A middle layer sandwiches everything together. Screws are enter from bottom, they go in 2mm freely and then left side screws all the way into the heatset insterts that are in the top shell while, the right side screws does a very similar thing except the heatset insterts are 1mm in the top shell and 3mm in the middle shell.</em>
 </p>
 
 The case consists of three printed parts(created in Autodesk Fusion-FREE) :
