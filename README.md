@@ -60,11 +60,11 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 </p>
 
 The case consists of three printed parts:
-- **Bottom shell** — holds the PCB and heatset inserts
+- **Bottom shell** — holds the PCB
 - **Middle frame / plate** — key switch mounting plate
 - **Top accent** — surrounds the OLED and encoder knobs
 
-All three parts are secured with **4× M3×16mm screws** threading into **4× M3×5mm×4mm heatset inserts** pressed into the bottom shell.
+All three parts are secured with **4× M3×16mm screws** threading into **4× M3×5mm×4mm heatset inserts** pressed into the top/middle shell.
 
 ---
 
@@ -82,7 +82,7 @@ All three parts are secured with **4× M3×16mm screws** threading into **4× M3
 | 1 | 0.91" OLED Display | I2C, SSD1306 |
 | 1 | 3D-Printed Case | 3 printed parts |
 | 4 | M3×16mm Screws | Case assembly |
-| 4 | M3×5mm×4mm Heatset Inserts | Press-fit into bottom shell |
+| 4 | M3×5mm×4mm Heatset Inserts | Press-fit into top/middle shell |
 
 ---
 
@@ -93,8 +93,8 @@ This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read 
 To build and flash:
 
 ```bash
-qmk compile -kb zepeda -km default
-qmk flash -kb zepeda -km default
+qmk compile -kb macropad -km default
+qmk flash -kb macropad -km default
 ```
 
 Put the XIAO RP2040 into bootloader mode by holding **BOOT** while plugging in USB (or double-tapping RST).
@@ -114,11 +114,11 @@ Put the XIAO RP2040 into bootloader mode by holding **BOOT** while plugging in U
 ## 📁 Repository Structure
 
 ```
-zepeda/
+Jayden-Zepeda-Macropad/
 ├── pcb/               # KiCad project files (.kicad_sch, .kicad_pcb)
 ├── case/              # 3D print files (.step / .stl)
 ├── firmware/          # QMK keymap and config
-├── images/            # Renders and photos
+├── production/            # Files for production
 └── README.md
 ```
 
