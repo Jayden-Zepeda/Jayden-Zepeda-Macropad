@@ -19,3 +19,13 @@
 // ── Timings ───────────────────────────────────────────────────────────────────
 #define DEBOUNCE     5
 #define TAPPING_TERM 200
+
+// ── I2C (for OLED — connects via J1: GP6=SDA, GP7=SCL) ───────────────────────
+#define I2C_DRIVER   I2CD1
+#define I2C1_SDA_PIN GP6
+#define I2C1_SCL_PIN GP7
+
+// ── OLED (SSD1306 128x32) ─────────────────────────────────────────────────────
+#define OLED_DISPLAY_128X32
+#define OLED_TIMEOUT     60000   // turn off after 60s of no activity (ms)
+#define OLED_BRIGHTNESS  200
