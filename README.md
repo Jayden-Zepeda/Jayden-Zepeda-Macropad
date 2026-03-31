@@ -14,6 +14,8 @@ The **Zepeda** is a compact, handcrafted macropad designed for productivity and 
 
 The key matrix is read through a **74HC165 shift register**, keeping GPIO usage minimal while supporting full anti-ghosting via 1N4148 diodes. The entire build fits inside a custom 3-part 3D-printed case secured with heatset inserts and M3 screws.
 
+PCB is designed through KICAD and the case is designed in Autodesk Fusion-FREE.
+
 ---
 
 ## 🖼️ Screenshots
@@ -59,7 +61,7 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
   <br/><em>3-part 3D-printed enclosure with heatset inserts. The PCB sits inside the bottom shell; the top plate exposes keycaps, encoders, and the OLED. A middle layer sandwiches everything together.</em>
 </p>
 
-The case consists of three printed parts:
+The case consists of three printed parts(created in Autodesk Fusion-FREE) :
 - **Bottom shell** — holds the PCB
 - **Middle frame / plate** — key switch mounting plate
 - **Top accent** — surrounds the OLED and encoder knobs
