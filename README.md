@@ -1,4 +1,4 @@
-# Zepeda Macropad
+# ZepedaPad
 
 > A custom 14-key macropad with dual rotary encoders, per-key RGB lighting, and an OLED display — built on the Seeed XIAO RP2040 with QMK firmware.
 
