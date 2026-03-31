@@ -123,6 +123,7 @@ Jayden-Zepeda-Macropad/
 ├── pcb/               # KiCad project files (.kicad_sch, .kicad_pcb)
 ├── case/              # 3D print files (.step / .stl)
 ├── firmware/          # QMK keymap and config
+├── images/            # Images
 ├── production/            # Files for production
 └── README.md
 ```
