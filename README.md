@@ -90,6 +90,11 @@ All three parts are secured with **4× M3×16mm screws** threading into **4× M3
 
 This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read the key matrix, and the SK6812 MINI-E LEDs are driven via QMK's RGB Matrix feature.
 
+Features:
+-Copy/Paste Key: First click is copy-second is paste, with an led and OLED display to show your status.
+-Mute/Unmute Key: Led and OLED display to show your status
+-4 Different Layers: Base, Media, Gaming, and CFG -- w/ led status
+
 To build and flash:
 
 ```bash
