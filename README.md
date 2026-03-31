@@ -3,7 +3,7 @@
 > A custom 14-key macropad with dual rotary encoders, per-key RGB lighting, and an OLED display — built on the Seeed XIAO RP2040 with QMK firmware.
 
 <p align="center">
-  <img src="Final-pic_1.png" alt="Zepeda Macropad Top View" width="700"/>
+  <img src="C:\Users\jayden\Downloads\Final-pic 1.png" alt="Zepeda Macropad Top View" width="700"/>
 </p>
 
 ---
@@ -21,12 +21,12 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 ### 3D Render
 
 <p align="center">
-  <img src="Final-pic_1.png" alt="Top-down render" width="600"/>
+  <img src="C:\Users\jayden\Downloads\Final-pic 1.png" alt="Top-down render" width="600"/>
   <br/><em>Top-down view</em>
 </p>
 
 <p align="center">
-  <img src="Final-pic_2.png" alt="Isometric render" width="600"/>
+  <img src="C:\Users\jayden\Downloads\Final-pic 2.png" alt="Isometric render" width="600"/>
   <br/><em>Isometric view showing case depth and USB cutout</em>
 </p>
 
@@ -37,7 +37,7 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 > Full schematic showing the XIAO RP2040, 74HC165 shift register, LED chain, diode matrix, rotary encoders, and OLED connector.
 
 <p align="center">
-  <img src="schematic.png" alt="Schematic" width="700"/>
+  <img src="C:\Users\jayden\Downloads\macropad-sch.pdf" alt="Schematic" width="700"/>
   <br/><em>KiCad schematic — macropad.kicad_sch</em>
 </p>
 
@@ -46,7 +46,7 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 ### PCB Layout
 
 <p align="center">
-  <img src="pcb.png" alt="PCB Layout" width="700"/>
+  <img src="C:\Users\jayden\Downloads\pcb.png" alt="PCB Layout" width="700"/>
   <br/><em>KiCad PCB layout — red/blue layers, switch footprints, and LED positions visible</em>
 </p>
 
@@ -55,7 +55,7 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 ### Case
 
 <p align="center">
-  <img src="Final-pic_2.png" alt="Case isometric" width="600"/>
+  <img src="C:\Users\jayden\Downloads\Final-pic 2.png" alt="Case isometric" width="600"/>
   <br/><em>3-part 3D-printed enclosure with heatset inserts. The PCB sits inside the bottom shell; the top plate exposes keycaps, encoders, and the OLED. A middle layer sandwiches everything together.</em>
 </p>
 
