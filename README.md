@@ -14,6 +14,8 @@ The **Zepeda** is a compact, handcrafted macropad designed for productivity and 
 
 The key matrix is read through a **74HC165 shift register**, keeping GPIO usage minimal while supporting full anti-ghosting via 1N4148 diodes. The entire build fits inside a custom 3-part 3D-printed case secured with heatset inserts and M3 screws.
 
+PCB is designed through KICAD and the case is designed in Autodesk Fusion-FREE.
+
 ---
 
 ## 🖼️ Screenshots
@@ -21,12 +23,12 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
 ### 3D Render
 
 <p align="center">
-  <img src="Images\Final-pic 1.png" alt="Top-down render" width="600"/>
+  <img src="Images\Final-pic 2.png" alt="Top-down render" width="600"/>
   <br/><em>Top-down view</em>
 </p>
 
 <p align="center">
-  <img src="Images\Final-pic 2.png" alt="Isometric render" width="600"/>
+  <img src="Images\Final-pic 1.png" alt="Isometric render" width="600"/>
   <br/><em>Isometric view showing case depth and USB cutout</em>
 </p>
 
@@ -59,7 +61,7 @@ The key matrix is read through a **74HC165 shift register**, keeping GPIO usage 
   <br/><em>3-part 3D-printed enclosure with heatset inserts. The PCB sits inside the bottom shell; the top plate exposes keycaps, encoders, and the OLED. A middle layer sandwiches everything together.</em>
 </p>
 
-The case consists of three printed parts:
+The case consists of three printed parts(created in Autodesk Fusion-FREE) :
 - **Bottom shell** — holds the PCB
 - **Middle frame / plate** — key switch mounting plate
 - **Top accent** — surrounds the OLED and encoder knobs
@@ -88,7 +90,7 @@ All three parts are secured with **4× M3×16mm screws** threading into **4× M3
 
 ## ⚡ Firmware
 
-This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read the key matrix, and the SK6812 MINI-E LEDs are driven via QMK's RGB Matrix feature.
+This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read the key matrix, and the SK6812 MINI-E LEDs are driven via QMK's RGB Matrix feature. Created a full keyboard and keymap layout from scratch. Included in firmware folder(macropad).                                    
 
 Features:
 -Copy/Paste Key: First click is copy-second is paste, with an led and OLED display to show your status.
@@ -123,6 +125,7 @@ Jayden-Zepeda-Macropad/
 ├── pcb/               # KiCad project files (.kicad_sch, .kicad_pcb)
 ├── case/              # 3D print files (.step / .stl)
 ├── firmware/          # QMK keymap and config
+├── images/            # Images
 ├── production/            # Files for production
 └── README.md
 ```
