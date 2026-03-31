@@ -90,7 +90,7 @@ All three parts are secured with **4× M3×16mm screws** threading into **4× M3
 
 ## ⚡ Firmware
 
-This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read the key matrix, and the SK6812 MINI-E LEDs are driven via QMK's RGB Matrix feature.
+This macropad runs **QMK Firmware**. The 74HC165 shift register is used to read the key matrix, and the SK6812 MINI-E LEDs are driven via QMK's RGB Matrix feature. Created a full keyboard and keymap layout from scratch. Included in firmware folder(macropad).                                    
 
 Features:
 -Copy/Paste Key: First click is copy-second is paste, with an led and OLED display to show your status.
